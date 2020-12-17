@@ -1,6 +1,6 @@
 <%@page import="java.io.OutputStream"%>
 <%@page import="java.awt.Image"%>
-<%@page import="com.application.ProductBean"%>
+<%@page import="com.application.bean.*"%>
 <%@page import="com.application.DisplayImage"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
 	pageEncoding="ISO-8859-1"%>
@@ -35,7 +35,7 @@
 	<label for="count">No Products</label>
 	<form action="bs" method="get">
 	<input type="hidden" value="<%= bean1.getId() %>"  name="pro">
-	<input type="text" name="count" placeholder="1,2,3..." required> 
+	<input type="number" name="count" placeholder="1,2,3..." min="1" max="10" required> 
 	
 	
 	

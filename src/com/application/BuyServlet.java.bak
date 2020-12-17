@@ -4,8 +4,6 @@ import java.io.IOException;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
 import javax.servlet.http.*;
-
-import com.application.bean.ProductBean;
 public class BuyServlet extends HttpServlet
 {
 @Override

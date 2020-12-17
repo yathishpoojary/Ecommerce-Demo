@@ -1,5 +1,4 @@
-<%@page import="com.application.ProductBean" %>
- <%@page import="com.application.AddressBean" %>
+<%@page import="com.application.bean.*" %>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
    
@@ -15,14 +14,16 @@
 
 <p>Successfully Ordered</p>
 <%
-
 AddressBean bean=(AddressBean)request.getAttribute("bean");
-out.print("Welcome, "+bean.getName());
+%>
+<h3><%= "Welcome "+bean.getName() %></h3>
 	
+	<%
 out.println("Your order details are ");
 
 
 out.println("Delivery Address");
+
 out.println("Name"+bean.getName());
 out.println("\nContact Number"+bean.getPhoneNumber());
 out.println("\nAddress"+bean.getAddress());

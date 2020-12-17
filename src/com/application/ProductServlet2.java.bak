@@ -3,9 +3,6 @@ import java.io.IOException;
 
 import javax.servlet.*;
 import javax.servlet.http.*;
-
-import com.application.bean.ProductBean;
-
 public class ProductServlet2 extends HttpServlet
 {
 	int id;

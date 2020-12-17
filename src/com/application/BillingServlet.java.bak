@@ -9,8 +9,6 @@ import javax.servlet.ServletException;
 import javax.servlet.http.*;
 import javax.swing.plaf.synth.SynthSeparatorUI;
 
-import com.application.bean.AddressBean;
-
 public class BillingServlet extends HttpServlet
 {
 	private int id;

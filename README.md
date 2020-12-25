@@ -22,6 +22,12 @@ MVC Architecture using Java Servlets, My SQL, JSP, HTML.
 └── README.md
 ```
 
+## Database Structure
+```
+In this application created two tables
+1.User Detail: This is to store registered user details.
+2.Product: This is to store products and its details.   
+```
 
 ## How to run
 ```
